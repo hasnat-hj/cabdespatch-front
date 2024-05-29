@@ -17,7 +17,7 @@ body {
     background-color: #292D6F;
 }
 .bg_yellow{
-    background-color: #FBCF14 !important;
+    background-color: #EEB927 !important;
 }
 .bg_wheat{
     background-color: #F8F8F8;
@@ -165,6 +165,14 @@ body {
     background-repeat: no-repeat !important;
     background-position: center;
     background: url('./assets/Rectangle\ 4\ \(4\).png');
+    background-size: cover;
+}
+#hero_sec_demos_only{
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background: url('./assets/Rectangle\ 4\ \(6\).png');
     background-size: cover;
 }
 #server_sec{
