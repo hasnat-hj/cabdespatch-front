@@ -143,6 +143,14 @@ body {
     background: url('./assets/Rectangle\ 4\ \(3\).png');
     background-size: cover;
 }
+#hero_sec_signup{
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background: url('./assets/Rectangle\ 4\ \(5\).png');
+    background-size: cover;
+}
 #hero_sec_control{
     min-height: 400px;
     width: 100%;
