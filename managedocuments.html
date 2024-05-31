@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mange Documents</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="loadComponents.js" defer></script>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+    <header></header>
+    <section id="hero_sec_demos_only">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px;">
+            <h1 class="text-white text-center display-5 fw-bold">Welcome to ___TEST ACCOUNT FOR</h1>
+            <h1 class="text-white text-center display-5 fw-bold"> DEMOS ONLY Manage Documents</h1>
+        </div>
+    </section>
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Driving Licence Front expires in: 2407 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Driving Licence Back expires in: 2407 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput2">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview2" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Badge expires in: 2042 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput3">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview3" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Compliance expires in: 2042 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput4">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview4" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">MOT expires in: 2042 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput5">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview5" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Plate expires in: 2042 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput6">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview6" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Insurance expires in: 96 Days</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput7">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview7" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">V5 uploaded: 398 Days ago</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput8">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview8" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="row px-sm-5 px-3 mx-sm-5 mb-5">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Photo uploaded: 397 Days ago</h5>
+                    <div class="col-md-6">
+                        <label for="" class="mt-3 mb-2">Expiry Date</label>
+                        <input type="date" class="cn form-control">
+                        <label for="" class="mt-3 mb-2">Image File</label>
+                        <input type="file" class="form-control" id="imageInput9">
+                        <label for="driving_license" class="form-control border border-2 mt-4 text-center"
+                            style="background-color: #F8F9FA;">Upload Driving License Front</label>
+                        <input type="file" id="driving_license" hidden>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-lg-2 py-5">
+                    <div id="imagePreview9" class="border border-2 d-flex justify-content-center align-items-center text-danger h-100"
+                        style="background-color: #F8F8F8; min-height: 150px;">
+                        No Image Found
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="bg_yellow border-0 px-4 py-2 rounded-pill fw-bold fs-5">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function handleFileSelect(inputId, previewId) {
+                const imageInput = document.getElementById(inputId);
+                const imagePreview = document.getElementById(previewId);
+
+                imageInput.addEventListener('change', function () {
+                    const file = this.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+
+                        reader.addEventListener('load', function () {
+                            imagePreview.innerHTML = `<img src="${this.result}" alt="Document Image" class="img-fluid">`;
+                            imagePreview.classList.remove('text-danger');
+                        });
+
+                        reader.readAsDataURL(file);
+                    }
+                });
+            }
+
+            // Initialize file input and preview for each row
+            handleFileSelect('imageInput', 'imagePreview');
+            handleFileSelect('imageInput2', 'imagePreview2');
+            handleFileSelect('imageInput3', 'imagePreview3');
+            handleFileSelect('imageInput4', 'imagePreview4');
+            handleFileSelect('imageInput5', 'imagePreview5');
+            handleFileSelect('imageInput6', 'imagePreview6');
+            handleFileSelect('imageInput7', 'imagePreview7');
+            handleFileSelect('imageInput8', 'imagePreview8');
+            handleFileSelect('imageInput9', 'imagePreview9');
+        });
+    </script>
+</body>
+
+</html>
