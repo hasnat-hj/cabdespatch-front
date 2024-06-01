@@ -203,7 +203,10 @@ input::placeholder, input{
     color: #989898 !important;
 }
 
-
+.cursor_pointer{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* table styling */
