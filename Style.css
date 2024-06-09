@@ -199,7 +199,7 @@ body {
     width: 200px !important;
     height: 200px !important;
 }
-input::placeholder, input{
+input::placeholder, input, .text_grey{
     color: #989898 !important;
 }
 
